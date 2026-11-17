@@ -1,6 +1,7 @@
 name: Trillek Engine CI
 
 on:
+  workflow_dispatch:
   pull_request:
   push:
     tags: [v*]
